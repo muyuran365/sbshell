@@ -96,7 +96,7 @@
     { "tag": "🎬 Amazon Prime", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点",  "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换"] },
     { "tag": "🎬 HBO MAX", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换"] },
     { "tag": "📲 Telegram", "type": "selector", "outbounds": ["🚀 节点选择", "♻️ 自动选择", "🔯 香港自动", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点", "🐸 手动切换"] },
-    { "tag": "🍏 Apple", "type": "selector", "outbounds": ["➡️ 直连", "🇭🇰 香港节点", "🇯🇵 日本节点", "🇰🇷 韩国节点", "🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
+    { "tag": "🍏 Apple", "type": "selector", "outbounds": ["➡️ 直连", "🇭🇰 香港节点", "🇯🇵 日本节点",  "🇸🇬 新加坡节点", "🇺🇲 美国节点"] },
     { "tag": "🐠 兜底策略", "type": "selector", "outbounds": ["🚀 节点选择", "➡️ 直连"] },
     { "tag": "🐸 手动切换", "type": "selector", "outbounds": ["{all}"] },
     { "tag": "🇭🇰 香港节点", "type": "selector", "outbounds": ["{all}"], "filter": [{ "action": "include", "keywords": ["🇭🇰|HK|hk|香港|港|HongKong"] }] },
@@ -160,5 +160,6 @@
     ]
   }
 }
+
 
 
