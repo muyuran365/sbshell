@@ -20,29 +20,19 @@
     }
   },
   "dns": {
-    "upstream": [
-      {
-        "address": "223.5.5.5",
-        "address_strategy": "ipv4_only"
-      },
-      {
-        "address": "tls://8.8.8.8",
-        "address_strategy": "ipv4_only"
-      }
-    ],
     "servers": [
       {
         "tag": "dns_direct",
-        "address": "223.5.5.5",
-        "address_strategy": "ipv4_only",
-        "strategy": "ipv4_only",
+        "type": "udp",
+        "server": "223.5.5.5",
+        "server_port": 53,
         "detour": "➡️ 直连"
       },
       {
         "tag": "dns_proxy",
-        "address": "tls://8.8.8.8",
-        "address_strategy": "ipv4_only",
-        "strategy": "ipv4_only",
+        "type": "tls",
+        "server": "8.8.8.8",
+        "server_port": 853,
         "detour": "🚀 节点选择"
       }
     ],
